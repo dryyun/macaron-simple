@@ -1,0 +1,38 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "7HXb3cry6luicWeJM9Uxwzfo9Rs=",
+			"path": "github.com/Unknwon/com",
+			"revision": "0db4a625e949e956314d7d1adea9bf82384cc10c",
+			"revisionTime": "2017-02-13T07:20:14Z"
+		},
+		{
+			"checksumSHA1": "y0olVbiMQ6/UOa/eh52XYnies90=",
+			"path": "github.com/go-macaron/inject",
+			"revision": "d8a0b8677191f4380287cfebd08e462217bac7ad",
+			"revisionTime": "2016-06-27T17:00:12Z"
+		},
+		{
+			"checksumSHA1": "1MGpGDQqnUoRpv7VEcQrXOBydXE=",
+			"path": "golang.org/x/crypto/pbkdf2",
+			"revision": "cbc3d0884eac986df6e78a039b8792e869bff863",
+			"revisionTime": "2017-04-09T18:29:52Z"
+		},
+		{
+			"checksumSHA1": "B97P/YffXqx5JvqImsvQqb8EWOM=",
+			"path": "gopkg.in/ini.v1",
+			"revision": "e7fea39b01aea8d5671f6858f0532f56e8bff3a5",
+			"revisionTime": "2017-03-28T15:39:02Z"
+		},
+		{
+			"checksumSHA1": "T/lGI5nBvYFy2PAPhVgd+jn1mno=",
+			"path": "gopkg.in/macaron.v1",
+			"revision": "a325110f8b392bce3e5cdeb8c44bf98078ada3be",
+			"revisionTime": "2017-02-13T09:12:08Z",
+			"tree": true
+		}
+	],
+	"rootPath": "macaron-simple"
+}
