@@ -4,6 +4,8 @@ import (
 	"html/template"
 	"macaron-simple/routes"
 
+	"macaron-simple/config"
+
 	"github.com/go-macaron/gzip"
 	"gopkg.in/macaron.v1"
 )
@@ -27,5 +29,10 @@ func main() {
 
 	routes.InitRoutes(m)
 
-	m.Run()
+	config := config.Get("config/app.ini")
+
+	host := config.Section("").Key("host").String()
+	port := config.Section("").Key("port").MustInt()
+
+	m.Run(host, port)
 }
