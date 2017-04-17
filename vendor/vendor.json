@@ -9,10 +9,34 @@
 			"revisionTime": "2017-02-13T07:20:14Z"
 		},
 		{
+			"checksumSHA1": "Rp4MJ0xFAy00EC0zlnwCpTEdYY8=",
+			"path": "github.com/go-macaron/gzip",
+			"revision": "cad1c6580a07c56f5f6bc52d66002a05985c5854",
+			"revisionTime": "2016-02-22T04:36:47Z"
+		},
+		{
 			"checksumSHA1": "y0olVbiMQ6/UOa/eh52XYnies90=",
 			"path": "github.com/go-macaron/inject",
 			"revision": "d8a0b8677191f4380287cfebd08e462217bac7ad",
 			"revisionTime": "2016-06-27T17:00:12Z"
+		},
+		{
+			"checksumSHA1": "+CqJGh7NIDMnHgScq9sl9tPrnVM=",
+			"path": "github.com/klauspost/compress/flate",
+			"revision": "e80ca55b53e5e6f53deed5c7842e7b7da95e1dc7",
+			"revisionTime": "2017-04-02T14:06:18Z"
+		},
+		{
+			"checksumSHA1": "kWBC7CTgppTdJFXizt4XkURbyCE=",
+			"path": "github.com/klauspost/compress/gzip",
+			"revision": "e80ca55b53e5e6f53deed5c7842e7b7da95e1dc7",
+			"revisionTime": "2017-04-02T14:06:18Z"
+		},
+		{
+			"checksumSHA1": "iKPMvbAueGfdyHcWCgzwKzm8WVo=",
+			"path": "github.com/klauspost/cpuid",
+			"revision": "09cded8978dc9e80714c4d85b0322337b0a1e5e0",
+			"revisionTime": "2016-03-02T07:53:16Z"
 		},
 		{
 			"checksumSHA1": "1MGpGDQqnUoRpv7VEcQrXOBydXE=",
