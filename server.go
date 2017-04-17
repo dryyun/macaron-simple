@@ -9,8 +9,12 @@ import (
 )
 
 func main() {
-	m := macaron.Classic()
+	m := macaron.New()
+	m.Use(macaron.Logger())
+	m.Use(macaron.Recovery())
 	m.Use(gzip.Gziper())
+	m.Use(macaron.Static("public"))
+
 	m.Use(macaron.Renderer(macaron.RenderOptions{
 		Directory:  "views",
 		Extensions: []string{".html"},
