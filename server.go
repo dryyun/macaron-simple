@@ -30,7 +30,6 @@ func main() {
 	routes.InitRoutes(m)
 
 	cfg := config.Get("config/app.ini")
-
 	host := cfg.GetConfigKey("host").String()
 	port := cfg.GetConfigKey("port").MustInt()
 
