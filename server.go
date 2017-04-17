@@ -29,10 +29,10 @@ func main() {
 
 	routes.InitRoutes(m)
 
-	config := config.Get("config/app.ini")
+	cfg := config.Get("config/app.ini")
 
-	host := config.Section("").Key("host").String()
-	port := config.Section("").Key("port").MustInt()
+	host := cfg.GetConfigKey("host").String()
+	port := cfg.GetConfigKey("port").MustInt()
 
 	m.Run(host, port)
 }

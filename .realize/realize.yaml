@@ -25,6 +25,7 @@ projects:
     - vendor
     exts:
     - .go
+    - .ini
   streams:
     cli_out: true
     file_out: false
