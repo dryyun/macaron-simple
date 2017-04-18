@@ -6,7 +6,11 @@ import (
 
 	"macaron-simple/config"
 
+	"github.com/go-macaron/cache"
+	_ "github.com/go-macaron/cache/redis"
 	"github.com/go-macaron/gzip"
+	"github.com/go-macaron/session"
+	_ "github.com/go-macaron/session/redis"
 	"gopkg.in/macaron.v1"
 )
 
@@ -25,6 +29,19 @@ func main() {
 				return "Macaron"
 			},
 		}},
+	}))
+
+	m.Use(cache.Cacher(cache.Options{
+		Adapter: "redis",
+		// e.g.: network=tcp,addr=127.0.0.1:6379,password=macaron,db=0,pool_size=100,idle_timeout=180,hset_name=MacaronCache,prefix=cache:
+		AdapterConfig: "network=tcp,addr=127.0.0.1:6379,db=0,prefix=cache_",
+		OccupyMode:    false,
+	}))
+
+	m.Use(session.Sessioner(session.Options{
+		Provider: "redis",
+		// e.g.: network=tcp,addr=127.0.0.1:6379,password=macaron,db=0,pool_size=100,idle_timeout=180,prefix=session:
+		ProviderConfig: "network=tcp,addr=127.0.0.1:6379,db=1,prefix=session_",
 	}))
 
 	routes.InitRoutes(m)

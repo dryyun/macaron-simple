@@ -9,6 +9,24 @@
 			"revisionTime": "2017-02-13T07:20:14Z"
 		},
 		{
+			"checksumSHA1": "OkqfwXeTVoiIxNMDA7HKvmrCDw8=",
+			"path": "github.com/go-macaron/binding",
+			"revision": "48920167fa152d02f228cfbece7e0f1e452d200a",
+			"revisionTime": "2016-12-22T07:05:54Z"
+		},
+		{
+			"checksumSHA1": "2P7Mi5cgjw7B0sgNodHpt1MTtwk=",
+			"path": "github.com/go-macaron/cache",
+			"revision": "56173531277692bc2925924d51fda1cd0a6b8178",
+			"revisionTime": "2015-10-13T08:11:02Z"
+		},
+		{
+			"checksumSHA1": "lfJWq+CuwU5GAPtsSx3mRi4LOiw=",
+			"path": "github.com/go-macaron/cache/redis",
+			"revision": "56173531277692bc2925924d51fda1cd0a6b8178",
+			"revisionTime": "2015-10-13T08:11:02Z"
+		},
+		{
 			"checksumSHA1": "Rp4MJ0xFAy00EC0zlnwCpTEdYY8=",
 			"path": "github.com/go-macaron/gzip",
 			"revision": "cad1c6580a07c56f5f6bc52d66002a05985c5854",
@@ -19,6 +37,18 @@
 			"path": "github.com/go-macaron/inject",
 			"revision": "d8a0b8677191f4380287cfebd08e462217bac7ad",
 			"revisionTime": "2016-06-27T17:00:12Z"
+		},
+		{
+			"checksumSHA1": "gO0dj0NqsmBTkf4D0JzJDtOEx+U=",
+			"path": "github.com/go-macaron/session",
+			"revision": "b8e286a0dba8f4999042d6b258daf51b31d08938",
+			"revisionTime": "2017-03-20T17:22:09Z"
+		},
+		{
+			"checksumSHA1": "jVW5CmzplA0UDjai0AFYJFVXAJk=",
+			"path": "github.com/go-macaron/session/redis",
+			"revision": "b8e286a0dba8f4999042d6b258daf51b31d08938",
+			"revisionTime": "2017-03-20T17:22:09Z"
 		},
 		{
 			"checksumSHA1": "+CqJGh7NIDMnHgScq9sl9tPrnVM=",
@@ -45,6 +75,12 @@
 			"revisionTime": "2017-04-09T18:29:52Z"
 		},
 		{
+			"checksumSHA1": "dpdsr7XtWPxHxYs1jF7CDG8F6hw=",
+			"path": "gopkg.in/bufio.v1",
+			"revision": "567b2bfa514e796916c4747494d6ff5132a1dfce",
+			"revisionTime": "2014-06-18T13:21:51Z"
+		},
+		{
 			"checksumSHA1": "B97P/YffXqx5JvqImsvQqb8EWOM=",
 			"path": "gopkg.in/ini.v1",
 			"revision": "e7fea39b01aea8d5671f6858f0532f56e8bff3a5",
@@ -56,6 +92,12 @@
 			"revision": "a325110f8b392bce3e5cdeb8c44bf98078ada3be",
 			"revisionTime": "2017-02-13T09:12:08Z",
 			"tree": true
+		},
+		{
+			"checksumSHA1": "6QPjE+qflEBHg+JPJd9e4iQuRAk=",
+			"path": "gopkg.in/redis.v2",
+			"revision": "e6179049628164864e6e84e973cfb56335748dea",
+			"revisionTime": "2014-12-09T11:07:59Z"
 		}
 	],
 	"rootPath": "macaron-simple"
