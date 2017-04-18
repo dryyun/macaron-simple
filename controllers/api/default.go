@@ -1,10 +1,27 @@
 package api
 
-import macaron "gopkg.in/macaron.v1"
+import (
+	"macaron-simple/controllers"
+
+	macaron "gopkg.in/macaron.v1"
+)
 
 type DefaultController struct {
+	controllers.BaseController
 }
 
-func (d DefaultController) Hello(ctx *macaron.Context) string {
-	return "default api hello"
+type Hello struct {
+	Action string `json:"action"`
+}
+
+type HelloResult struct {
+	Status  int    `json:"status"`
+	Message string `json:"message"`
+	Data    Hello  `json:"data"`
+}
+
+func (d DefaultController) Hello(ctx *macaron.Context) {
+	r := HelloResult{200, "", Hello{"say hi"}}
+
+	ctx.JSON(200, &r)
 }
