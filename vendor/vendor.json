@@ -27,6 +27,18 @@
 			"revisionTime": "2015-10-13T08:11:02Z"
 		},
 		{
+			"checksumSHA1": "Z14F1jXWg0vXQVCNxqVJEu+VQmg=",
+			"path": "github.com/go-macaron/captcha",
+			"revision": "cbfb9d984efb41f44f63e9abaa366a3308ff78ca",
+			"revisionTime": "2017-03-30T19:07:02Z"
+		},
+		{
+			"checksumSHA1": "60FC18/huiHD1fZ9I3BzK61Pk2Q=",
+			"path": "github.com/go-macaron/csrf",
+			"revision": "428b7c62d7d0034b048b1cd43ba60d87857f5253",
+			"revisionTime": "2017-02-07T23:07:24Z"
+		},
+		{
 			"checksumSHA1": "Rp4MJ0xFAy00EC0zlnwCpTEdYY8=",
 			"path": "github.com/go-macaron/gzip",
 			"revision": "cad1c6580a07c56f5f6bc52d66002a05985c5854",
