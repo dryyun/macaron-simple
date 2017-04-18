@@ -48,6 +48,8 @@ func main() {
 
 	//m.Use(csrf.Csrfer())
 
+	//m.Use(toolbox.Toolboxer(m))
+
 	routes.InitRoutes(m)
 
 	cfg := config.Get("config/app.ini")

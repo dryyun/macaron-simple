@@ -63,6 +63,12 @@
 			"revisionTime": "2017-03-20T17:22:09Z"
 		},
 		{
+			"checksumSHA1": "VMRkwnbl0mKWWvK/62CnIlv1oOg=",
+			"path": "github.com/go-macaron/toolbox",
+			"revision": "6766b8f16d1b135b250f09ba4dc4e24ab65b1107",
+			"revisionTime": "2017-02-20T18:37:56Z"
+		},
+		{
 			"checksumSHA1": "+CqJGh7NIDMnHgScq9sl9tPrnVM=",
 			"path": "github.com/klauspost/compress/flate",
 			"revision": "e80ca55b53e5e6f53deed5c7842e7b7da95e1dc7",
