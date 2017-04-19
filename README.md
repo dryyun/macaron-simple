@@ -11,7 +11,9 @@
 ####使用第三方库   
 > macaron  - https://github.com/go-macaron/macaron - Go Web 框架   
 > go-ini   - https://github.com/go-ini/ini         - 配置文件，读写 INI 文件的功能，macaron 本身就依赖这个库
-> bcrypt   - https://godoc.org/golang.org/x/crypto/bcrypt - bcrypt hash 
+> bcrypt   - https://godoc.org/golang.org/x/crypto/bcrypt - bcrypt hash   
+> validator - https://github.com/go-playground/validator - 数据验证  
+> binding  - https://github.com/mholt/binding  - html 表单数据转成 go 数据，跟 `validator` 配合代替了 `macaron` 自带的 [数据绑定与验证](https://go-macaron.com/docs/middlewares/binding) 功能
 
 ####需要环境
 > mysql   
