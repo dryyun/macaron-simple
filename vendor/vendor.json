@@ -69,6 +69,12 @@
 			"revisionTime": "2017-02-20T18:37:56Z"
 		},
 		{
+			"checksumSHA1": "sk+CtFJzus412jVGy9WlCQPbkEQ=",
+			"path": "github.com/go-playground/form",
+			"revision": "20d04065dbc6f79aac03bbfd49b6a9e0658f5842",
+			"revisionTime": "2017-03-27T19:14:18Z"
+		},
+		{
 			"checksumSHA1": "pI0js2qnSKXOzUq9AoA5CJDJNRw=",
 			"path": "github.com/go-playground/locales",
 			"revision": "1e5f1161c6416a5ff48840eb8724a394e48cc534",
