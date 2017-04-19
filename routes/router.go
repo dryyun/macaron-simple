@@ -14,19 +14,22 @@ func InitRoutes(m *macaron.Macaron) {
 
 func InitApiRoutes(m *macaron.Macaron) {
 	m.Group("/api", func() {
-		m.Get("/hello/:name", func(ctx *macaron.Context) string {
-			return "hello " + ctx.Params("name")
-		})
+		//For Test
+		m.Get("/", api.BaseApiController{}.Hello)
 
-		m.Get("/", api.DefaultController{}.Hello)
+		//For Discussion
+		m.Post("/user/register", api.UserApiController{}.Register)
 	})
 }
 
 func InitWebRoutes(m *macaron.Macaron) {
 
+	//For Test
 	m.Get("/hello/:name", func(ctx *macaron.Context) string {
 		return "hello " + ctx.Params("name")
 	})
 
 	m.Get("/", controllers.DefaultController{}.Hello)
+
+	//For Discussion
 }

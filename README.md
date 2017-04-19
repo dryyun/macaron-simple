@@ -11,7 +11,7 @@
 ####使用第三方库   
 > macaron  - https://github.com/go-macaron/macaron - Go Web 框架   
 > go-ini   - https://github.com/go-ini/ini         - 配置文件，读写 INI 文件的功能，macaron 本身就依赖这个库
-
+> bcrypt   - https://godoc.org/golang.org/x/crypto/bcrypt - bcrypt hash 
 
 ####需要环境
 > mysql   

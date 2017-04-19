@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS `user` (
   `phone` varchar(11)  NOT NULL,
   `password` varchar(128)  NOT NULL,
   `avatar` varchar(256) DEFAULT NULL,
-  `status` tinyint(4) DEFAULT '0',
   `created` int(11) DEFAULT '0',
   `updated` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
