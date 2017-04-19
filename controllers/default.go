@@ -3,6 +3,7 @@ package controllers
 import macaron "gopkg.in/macaron.v1"
 
 type DefaultController struct {
+	BaseController
 }
 
 func (d DefaultController) Hello(ctx *macaron.Context) {
